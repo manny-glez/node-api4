@@ -1,9 +1,7 @@
+require('dotenv').config()
+
 const express = require('express')
 const cors = require('cors')
-
-console.log(process.env.USER)
-console.log(process.env.HOME)
-console.log(process.env.POSRT)
 
 const PORT = process.env.PORT || 5000
 
